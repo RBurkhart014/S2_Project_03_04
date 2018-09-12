@@ -13,10 +13,67 @@
 */
 
 html {
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(218, 183, 138);
 }
 
 body {
-    background-color: rgb(119, 9, 9);
-    color: rgba(213, 236, 11, 0.849);
+    background-color: rgb(218, 183, 138);
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: rgb(218, 183, 138);
+}
+
+header a {
+    background-color: rgb(218, 183, 138);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+header a:hover,
+header a:active {
+    color: rgb(238, 51, 238);
+}
+
+section#rightcol nav a {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+section#rightcol nav a:hover,
+section#rightcol nav a:active {
+    color: rgb(238, 51, 238);
+}
+
+section#leftcol {
+    background-color: rgb(218, 183, 138);
+}
+
+Aside:nth-of-type(2) {
+    background-color: rgb(248, 203, 107);
+}
+
+aside:nth-of-type(1) {
+    background-color: rgb(226, 130, 106);
+}
+
+aside h1:nth-of-type(1) {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+
+h1 {
+    font-family: 'Gamja Flower', cursive;
+}
+
+h2 {
+    font-family: 'Gamja Flower', cursive;
 }
