@@ -16,14 +16,20 @@ html {
     background-color: rgb(218, 183, 138);
 }
 
+/* The html background color is basically the entire pages tanish color. */
+
 body {
     background-color: rgb(218, 183, 138);
     color: rgb(0, 0, 0);
 }
 
+/* I tried to have the entire page one fancy looking tan color, therefore i made the body the same color as the html. and i made the text color black to suit the page. */
+
 nav {
     background-color: rgb(218, 183, 138);
 }
+
+/* The nav background color just changes the top bar with the main links to the same tan color. */
 
 header a {
     background-color: rgb(218, 183, 138);
@@ -33,36 +39,52 @@ header a {
     color: rgb(49, 49, 49);
 }
 
+/* The "header a" command allowed the top bar to have the same tan color entirely, along with my link colors turing a blackish greyish. */
+
 header a:hover,
 header a:active {
     color: rgb(238, 51, 238);
 }
+
+/* The "hover/active" commands made it so that whenever i hover over a link & click on it, it will turn hot pink. */
 
 section#rightcol nav a {
     text-decoration: none;
     color: rgb(49, 49, 49);
 }
 
+/* The right col command made it so that the bar with all the links on the right has the links appear blackish/greyish. */
+
 section#rightcol nav a:hover,
 section#rightcol nav a:active {
     color: rgb(238, 51, 238);
 }
 
+/* This made it so that all the links on the right bar turn pink when hovered over/clicked on. */
+
 section#leftcol {
     background-color: rgb(218, 183, 138);
 }
+
+/* Fat the same tanish color to the left bar. */
 
 Aside:nth-of-type(2) {
     background-color: rgb(248, 203, 107);
 }
 
+/* For the "upcoming events" box on the bottom rightish, the "nth-of-type" command allowed me to have a yellow box surrounding that text. */
+
 aside:nth-of-type(1) {
     background-color: rgb(226, 130, 106);
 }
 
+/* Same thing as the last comment, except on the bottom rightish it made the box red. */
+
 aside h1:nth-of-type(1) {
     text-align: center;
 }
+
+/* This made it so therefore the main bolded headers in the colored boxes are centered in the box. */
 
 footer {
     text-align: center;
@@ -70,10 +92,16 @@ footer {
     background-color: rgb(46, 46, 46);
 }
 
+/* This made it so the bar at the bottom of the page displaying the phone number, address, & zip code turned black & i gave it white text so it could be readable to the user. */
+
 h1 {
     font-family: 'Gamja Flower', cursive;
 }
 
+/* The bolded h1 texts have this fancy font */
+
 h2 {
     font-family: 'Gamja Flower', cursive;
 }
+
+/* Same as last comment. */
